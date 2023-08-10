@@ -10,4 +10,4 @@ The connection/construction with a database was made with Hibernate and JPA.
 
 ### Used tools
 ---
-[![My Skills](https://skillicons.dev/icons?i=postman,eclipse&theme=dark)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=postman,eclipse,mysql,java,spring&theme=dark)](https://skillicons.dev)
