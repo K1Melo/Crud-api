@@ -1,4 +1,4 @@
-package com.projetocrud.crud.model.entitie;
+package com.projectcrud.crud.model.entitie;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -9,31 +9,31 @@ import jakarta.validation.constraints.Min;
 import jakarta.validation.constraints.NotBlank;
 
 @Entity
-@Table(name = "produtos")
-public class Produto {
-	
+@Table(name = "products")
+public class Product {
+
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private int id;
-	
+
 	@NotBlank
 	private String name;
-	
+
 	@Min(0)
-	private double price;
-	
-	@Min(0) 
-	private Integer quantidade;
-	
-	public Produto() {
+	private Double price;
+
+	@Min(0)
+	private Integer quantity;
+
+	public Product() {
 
 	}
 
-	public Produto(String name, Long price, Integer quantidade) {
+	public Product(String name, Double price, Integer quantity) {
 		super();
 		this.name = name;
 		this.price = price;
-		this.quantidade = quantidade;
+		this.quantity = quantity;
 	}
 
 	public String getName() {
@@ -48,15 +48,15 @@ public class Produto {
 		return price;
 	}
 
-	public void setPrice(Long price) {
+	public void setPrice(Double price) {
 		this.price = price;
 	}
 
-	public Integer getQuantidade() {
-		return quantidade;
+	public Integer getQuantity() {
+		return quantity;
 	}
 
-	public void setQuantidade(Integer quantidade) {
-		this.quantidade = quantidade;
+	public void setQuantity(Integer quantity) {
+		this.quantity = quantity;
 	}
 }
