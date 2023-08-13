@@ -16,7 +16,5 @@ The connection/construction with a database was made with Hibernate and JPA., an
 
 ### Used tools
 ---
-
-<<<<<<< HEAD
 [![My Skills](https://skillicons.dev/icons?i=vue,js,bootstrap,html,css&theme=dark)](https://skillicons.dev)
 
