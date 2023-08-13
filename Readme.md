@@ -14,6 +14,8 @@ The connection/construction with a database was made with Hibernate and JPA., an
 
 ## Front-end
 
+For the connection with backend I use JavaScript but i will update for a version using Vue Js
+
 ### Used tools
 ----
 [![My Skills](https://skillicons.dev/icons?i=vue,js,bootstrap,html,css&theme=dark)](https://skillicons.dev)
