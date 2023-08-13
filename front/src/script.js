@@ -1,5 +1,4 @@
 const form = document.querySelector('form');
-const showProducts = document.getElementById('show-products');
 const productName = document.getElementById('name');
 const productPrice = document.getElementById('price');
 const productQuantity = document.getElementById('quantity');
@@ -13,19 +12,25 @@ form.addEventListener('submit', (event) => {
         productPrice: productPrice.value,
         productQuantity: productQuantity.value,
     };
-});
-console.log(showProducts);
-
-showProducts.addEventListener('submit', (event) => {
-    console.log('teste');
-});
-    
+});    
 
 const getProducts = () => {
-    console.log('iai')
+
     fetch('http://localhost:8080/api/products')
-        .then(res => console.log(res))
-        .then(products => console.log(products));
+        .then(res => res.json())
+        .then(products => {
+            console.log(products);
+            products.forEach(product => {
+                const name = `<li>Name: ${product.name} </li>`
+                const price = `<li>Price: ${product.price} </li>`
+                const quantity = `<li>Quantity: ${product.quantity} </li>`
+
+                document.querySelector('ul').insertAdjacentHTML('beforeend', name);
+                document.querySelector('ul').insertAdjacentHTML('beforeend', price);
+                document.querySelector('ul').insertAdjacentHTML('beforeend', quantity);
+            });
+        })
+        .catch(error => console.log(error));
 };
 
 form.addEventListener('submit', event => getProducts());
