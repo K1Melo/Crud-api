@@ -6,7 +6,7 @@ CRUD (create, read, update and delete data)
 ## Back-end
 
 In the backend i used the Java framework Spring with the MVC pattern and REST api. <br>
-The connection/construction with a database was made with Hibernate and JPA.
+The connection/construction with a database was made with Hibernate and JPA., and mysql
 
 ### Used tools
 ---
