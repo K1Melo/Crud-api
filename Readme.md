@@ -11,3 +11,10 @@ The connection/construction with a database was made with Hibernate and JPA., an
 ### Used tools
 ---
 [![My Skills](https://skillicons.dev/icons?i=postman,eclipse,mysql,java,spring&theme=dark)](https://skillicons.dev)
+
+## Front-end
+
+### Used tools
+---
+
+[![My Skills](https://skillicons.dev/icons?i=vue,js,bootstrap,html,css&theme=dark)](https://skillicons.dev)
