@@ -25,3 +25,7 @@ form input{
 .btn{
     margin-top: 40px;
 }
+
+.form-box{
+    display: none;
+}
