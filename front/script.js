@@ -15,7 +15,7 @@ form.addEventListener('submit', (event) => {
 });
 
 const logIn = () => {
-    
+    // Error here
     fetch('http://localhost:8080/api/products',
         {
             headers: {
