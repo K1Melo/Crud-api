@@ -21,9 +21,10 @@ const getProducts = () => {
         .then(products => {
             console.log(products);
             products.forEach(product => {
-                const name = `<li>Name: ${product.name} </li>`
-                const price = `<li>Price: ${product.price} </li>`
-                const quantity = `<li>Quantity: ${product.quantity} </li>`
+
+                const name = `<li style="margin-top:10px; font-size: 20px; font-weight:bold;">${product.name} </li>`;
+                const price = `<li>Price: ${product.price} </li>`;
+                const quantity = `<li>Quantity: ${product.quantity} </li>`;
 
                 document.querySelector('ul').insertAdjacentHTML('beforeend', name);
                 document.querySelector('ul').insertAdjacentHTML('beforeend', price);
@@ -32,5 +33,7 @@ const getProducts = () => {
         })
         .catch(error => console.log(error));
 };
+
+getProducts();
 
 form.addEventListener('submit', event => getProducts());
