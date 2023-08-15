@@ -15,7 +15,6 @@ form.addEventListener('submit', (event) => {
 });    
 
 const getProducts = () => {
-
     fetch('http://localhost:8080/api/products')
         .then(res => res.json())
         .then(products => {
