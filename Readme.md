@@ -16,6 +16,12 @@ The connection/construction with a database was made with Hibernate and JPA., an
 
 For the connection with backend I use JavaScript but i will update for a version using Vue Js
 
+### Get Requisition
+
+For the first get requiment I use only JS.
+For set a connection with backend i use ```fetch('http://localhost:8080/api/products')``` and transformed the data in .json, and then i list the products in html:
+
+
 ### Used tools
 ----
 [![My Skills](https://skillicons.dev/icons?i=vue,js,bootstrap,html,css&theme=dark)](https://skillicons.dev)
