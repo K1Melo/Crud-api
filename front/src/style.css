@@ -3,6 +3,13 @@
     padding: 0;
 }
 
+body{
+    background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(32, 0, 44));
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
 .center{
     text-align: center;
     justify-content: center;
@@ -31,9 +38,11 @@ form input{
 #show-products{
     width: 50%;
     border: 1px solid black;
+    background-color: white;
 }
 
 .form-box{
+    background-color: white;
     width: 40%;
     text-align: center;
     border: 1px solid black;
