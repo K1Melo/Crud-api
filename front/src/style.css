@@ -54,7 +54,7 @@ form input{
 }
 
 .card-form:hover{
-    background-color: rgb(122, 193, 255);
+    background-color: rgb(95, 177, 248);
     transition: 0.8s;
 }
 
@@ -62,7 +62,7 @@ form input{
     border: 1px solid rgba(255, 255, 255, 0);
     border-radius: 20px;
     width: 50%;
-        background-color: rgb(23, 80, 185);
+    background-color: rgb(122, 193, 255);
 }
 
 .card-products h2{
@@ -70,7 +70,7 @@ form input{
 }
 
 .card-products:hover{
-    background-color: rgb(122, 193, 255);
+    background-color: rgb(100, 183, 255);
     transition: 0.8s;
 }
 
