@@ -21,7 +21,7 @@ const getProducts = () => {
             console.log(products);
             products.forEach(product => {
 
-                const name = `<li style="margin-top:10px; font-size: 20px; font-weight:bold;">${product.name} </li>`;
+                const name = `<li style="color:white; margin-top:10px; font-size: 20px; font-weight:bold;">${product.name} </li>`;
                 const price = `<li>Price: ${product.price} </li>`;
                 const quantity = `<li>Quantity: ${product.quantity} </li>`;
 
@@ -33,6 +33,14 @@ const getProducts = () => {
         .catch(error => console.log(error));
 };
 
+const postProducts = () => {
+    fetch('http://localhost:8080/api/products', {
+        method: 'POST'
+    }).then(res => console.log(res.json()))
+    .then(products => console.log(products))
+    .catch(error => console.log(error));
+};
+
 getProducts();
 
-form.addEventListener('submit', event => getProducts());
+form.addEventListener('submit', event => postProducts());

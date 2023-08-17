@@ -1,6 +1,8 @@
 *{
     margin: 0;
     padding: 0;
+    text-decoration: none;
+    list-style: none;
 }
 
 body{
@@ -10,10 +12,18 @@ body{
     text-align: center;
 }
 
+h2{
+    color: white;
+}
+
 .center{
     text-align: center;
     justify-content: center;
     align-items: center;
+}
+
+li{
+    color: rgb(32, 32, 32);
 }
 
 form{
@@ -23,6 +33,7 @@ form{
 form label{
     margin-top: 30px;
     font-size: 25px;
+    color: rgb(32, 32, 32);
 }
 
 form input{
@@ -31,24 +42,38 @@ form input{
     border-radius: 50px;
 }
 
-.btn{
-    margin-top: 40px;
+.container{
+    display: flex;
 }
 
-#show-products{
+.card-form{
+    border: 1px solid rgba(255, 255, 255, 0);
+    border-radius: 20px;
     width: 50%;
-    border: 1px solid black;
-    background-color: white;
+    background-color: rgb(23, 80, 185);
 }
 
-.form-box{
-    background-color: white;
-    width: 40%;
-    text-align: center;
-    border: 1px solid black;
+.card-form:hover{
+    background-color: rgb(122, 193, 255);
+    transition: 0.8s;
 }
 
-h2{
+.card-products{
+    border: 1px solid rgba(255, 255, 255, 0);
+    border-radius: 20px;
+    width: 50%;
+        background-color: rgb(23, 80, 185);
+}
+
+.card-products h2{
     margin: 50px;
-    display: inline;
+}
+
+.card-products:hover{
+    background-color: rgb(122, 193, 255);
+    transition: 0.8s;
+}
+
+.products{
+    margin: 70px;
 }

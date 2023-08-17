@@ -8,23 +8,27 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 </head>
 <body>
-    <h1 style="margin-top: 50px; color: white;" class="center">Crud-Application</h1>
-        <div id="show-products" class="center">
-            <h2 style="margin: 30px;" >Get Products:</h2>
-            <ul></ul>
-        </div>
-        <div class="form-box"> 
-            <form action="" class="center">
-                <h2 style="margin: 0px;" class="center">Post Products:</h2>
-                <label style="display: block;" class="center" for="name">Name</label>
-                <input class="center" id="name" type="text" name="name">
-                <label style="display: block;" class="center" for="price">Price</label>
-                <input class="center" id="price" type="number" name="price">
-                <label style="display: block;" class="center" for="quantity">Quantity</label>
-                <input class="center" id="quantity" type="number" name="quantity"><br>
-                <button type="submit" class="btn btn-outline-primary btn-lg">Send</button>
-                <button type="reset" class="btn btn-outline-danger btn-lg">Clear</button>
-            </form>
+    <h1 style="margin: 50px; color: white;" class="center">Crud-Application</h1>
+        <div class="container">
+            <div class="card-products center">
+                <div class="products">
+                    <h2 style="margin: 30px;">Get Products</h2>
+                    <ul></ul>
+                </div>
+            </div>
+            <div class="card-form">
+                <form action="" class="center">
+                    <h2 style="margin: 0px;" class="center">Post Products:</h2>
+                    <label style="display: block;" class="center" for="name">Name</label>
+                    <input class="center" id="name" type="text" name="name">
+                    <label style="display: block;" class="center" for="price">Price</label>
+                    <input class="center" id="price" type="number" name="price">
+                    <label style="display: block;" class="center" for="quantity">Quantity</label>
+                    <input class="center" id="quantity" type="number" name="quantity"><br>
+                    <button style="margin-top: 50px;" type="submit" class="btn btn-outline-primary btn-lg">Send</button>
+                    <button style="margin-top: 50px;" type="reset" class="btn btn-outline-danger btn-lg">Clear</button>
+                </form>
+            </div>
         </div>
     <script src="script.js"></script>
 </body>
