@@ -22,7 +22,8 @@ For the connection with backend I use JavaScript but I will update for a version
 For the first get requiment I use only JS.
 For set a connection with backend I use ```fetch('http://localhost:8080/api/products')``` and transformed the data in .json, and then I list the products in html:
 
-<img width="800px" src="https://github.com/K1Melo/Crud-api/blob/main/front/img/getProducts.png?raw=true" />
+<img width="500px" src="https://github.com/K1Melo/Crud-api/blob/main/front/img/getProducts_back.png?raw=true" />
+<img width="680px" src="https://github.com/K1Melo/Crud-api/blob/main/front/img/getProducts.png?raw=true" />
 
 ## Used tools
 
