@@ -54,7 +54,7 @@ form input{
 }
 
 .card-form:hover{
-    background-color: rgb(95, 177, 248);
+    background-color: rgb(20, 120, 207);
     transition: 0.8s;
 }
 
@@ -70,10 +70,29 @@ form input{
 }
 
 .card-products:hover{
-    background-color: rgb(100, 183, 255);
+    background-color: rgb(63, 165, 255);
     transition: 0.8s;
 }
 
 .products{
     margin: 70px;
+}
+
+.delete{
+    width: 10px;
+    height: 10px;
+    border-radius: 50px;
+    background-color: red;
+    border: 0px;
+    margin-top: 20px;
+}
+
+.delete:hover{
+    background-color: rgb(165, 0, 0);
+}
+
+#nameProduct{
+    color:white; 
+    font-size: 20px; 
+    font-weight:bold;
 }

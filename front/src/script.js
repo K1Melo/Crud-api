@@ -4,7 +4,7 @@ const getProducts = () => {
     .then(products => {
         products.forEach(product => {
 
-            const name = `<li style="color:white; margin-top:10px; font-size: 20px; font-weight:bold;">${product.name} </li>`;
+            const name = `<button class="delete"></button><li id="nameProduct">${product.name} </li>`;
             const price = `<li>Price: ${product.price} </li>`;
             const quantity = `<li>Quantity: ${product.quantity} </li>`;
                 
@@ -52,3 +52,4 @@ const postProducts = () => {
 
 
 form.addEventListener('submit', event => postProducts());
+
