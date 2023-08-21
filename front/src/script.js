@@ -17,10 +17,6 @@ const getProducts = () => {
 };    
 getProducts();
 
-const newProduct = () => {
-
-}
-
 const form = document.querySelector('form');
 const productName = document.getElementById('name');
 const productPrice = document.getElementById('price');
@@ -28,8 +24,6 @@ const productQuantity = document.getElementById('quantity');
 
 form.addEventListener('submit', (event) => {
     event.preventDefault();
-    newProduct;
-    console.log(newProduct);
     window.onload;
 });    
 
@@ -52,4 +46,3 @@ const postProducts = () => {
 
 
 form.addEventListener('submit', event => postProducts());
-

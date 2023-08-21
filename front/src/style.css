@@ -89,6 +89,8 @@ form input{
 
 .delete:hover{
     background-color: rgb(165, 0, 0);
+    transform: scale(1.1);
+    transition: 0.5s;
 }
 
 #nameProduct{
