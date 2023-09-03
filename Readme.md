@@ -3,6 +3,12 @@
 This is a self project for improve my Java - Spring skils, in this project my intention is make a fullstack application with <br>
 CRUD (create, read, update and delete data)
 
+## Requirements
+
+Java - version 17+ (adviced)
+Spring Boot - version 3
+MySQL - version 8
+
 ## Back-end
 
 In the backend i used the Java framework Spring with the MVC pattern and REST api. <br>
