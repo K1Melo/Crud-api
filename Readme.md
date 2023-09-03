@@ -5,8 +5,8 @@ CRUD (create, read, update and delete data)
 
 ## Requirements
 
-Java - version 17+ (adviced)
-Spring Boot - version 3
+Java - version 17+ (adviced) <br>
+Spring Boot - version 3 <br>
 MySQL - version 8
 
 ## Back-end
