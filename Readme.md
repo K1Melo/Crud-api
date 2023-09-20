@@ -18,20 +18,4 @@ The connection/construction with a database was made with Hibernate and JPA., an
 
 [![My Skills](https://skillicons.dev/icons?i=postman,eclipse,mysql,java,spring&theme=dark)](https://skillicons.dev)
 
-## Front-end
-
-For the connection with backend I use JavaScript but I will update for a version using Vue Js
-
-## Get Requisition
-
-
-For the first get requiment I use only JS.
-For set a connection with backend I use ```fetch('http://localhost:8080/api/products')``` and transformed the data in .json, and then I list the products in html:
-
-<img width="500px" src="https://github.com/K1Melo/Crud-api/blob/main/front/img/getProducts_back.png?raw=true" />
-<img width="680px" src="https://github.com/K1Melo/Crud-api/blob/main/front/img/getProducts.png?raw=true" />
-
-## Used tools
-
-[![My Skills](https://skillicons.dev/icons?i=js,bootstrap,html,css&theme=dark)](https://skillicons.dev)
 
